@@ -3,10 +3,37 @@
     padding: 0;
     box-sizing: border-box;
 }
-button:active{
-    background-color: blue;
-    color: aliceblue;
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #main{
+        font-size: 2rem;
+        padding: 2rem;
+        border-radius: 10px;
+        border: 1px solid;
+        h1{
+            margin-bottom: 1rem;
+        }
+        #btns{
+            height: 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            button{
+                padding: .8rem;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            button:active{
+                background-color: blue;
+                color: aliceblue;
+            }
+        }
+    }
 }
+
 
 .stylebtn{
     background-color: blue;
